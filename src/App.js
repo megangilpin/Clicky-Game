@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 import Section from "./components/Section";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import friends from "./friends.json";
 
 
@@ -31,7 +30,6 @@ class App extends Component {
         <Header />
 
         <Wrapper>
-          <Title>Friends List</Title>
           {this.state.friends.map(friend => (
             <FriendCard
               removeFriend={this.removeFriend}
