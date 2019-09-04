@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Shades of Yellow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Color_icon_yellow.svg"
+  },
+  {
+    "id": 2,
+    "name": "Shades of Red",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Color_icon_red.svg"
+  },
+  {
+    "id": 3,
+    "name": "Shades of Blue",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Color_icon_blue.svg"
+  },
+  {
+    "id": 4,
+    "name": "Shades of Orange",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Shades_of_orange.png"
+  },
+  {
+    "id": 5,
+    "name": "Shades of Purple",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Color_icon_violet_v2.svg"
+  },
+  {
+    "id": 6,
+    "name": "Shades of Green",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Color_icon_green.svg"
+  },
+  {
+    "id": 7,
+    "name": "Shades of Magenta",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/MagentaIcon.png"
+  },
+  {
+    "id": 8,
+    "name": "Shades of Grey",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Color_icon_gray_v2.svg",
+    "occupation": "Ladies Man",
+    "location": "Aron City"
+  },
+  {
+    "id": 9,
+    "name": "Shades of Pink",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Color_icon_pink_v2.svg"
+  },
+  {
+    "id": 10,
+    "name": "Shades of White",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Color_icon_white_v2.svg"
+  },
+  {
+    "id": 11,
+    "name": "Shades of Black",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Shades_of_black.png",
+    "occupation": "Superhero",
+    "location": "Earth"
+  },
+  {
+    "id": 12,
+    "name": "Shades of Light Blue",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Shades_of_light_blue.png"
+  }
+]

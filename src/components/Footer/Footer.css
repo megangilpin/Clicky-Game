@@ -1,4 +1,7 @@
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background: rgb(50, 49, 49);
+  color: white;
+  text-align: center;
 }
