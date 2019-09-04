@@ -37,9 +37,7 @@
   {
     "id": 8,
     "name": "Shades of Grey",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Color_icon_gray_v2.svg",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Color_icon_gray_v2.svg"
   },
   {
     "id": 9,
@@ -54,9 +52,7 @@
   {
     "id": 11,
     "name": "Shades of Black",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Shades_of_black.png",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Shades_of_black.png"
   },
   {
     "id": 12,

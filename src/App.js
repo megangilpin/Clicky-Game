@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Section from "./components/Section";
-import FriendCard from "./components/FriendCard";
+// import Section from "./components/Section";
+import ColorCard from "./components/ColorCard";
 import Wrapper from "./components/Wrapper";
 import colors from "./colors.json";
 
@@ -15,16 +15,33 @@ class App extends Component {
     colors,
     score: 0,
     topScore: 0,
-    guessColor: [],
+    guessedColor: [1,3],
   };
 
+  checksTopScore = () => {
+   
+  }
+
+  checkGuess = (id) => {
+    console.log(this.state.guessedColor)
+    const guessedColor = this.state.guessedColor
+    if(guessedColor.includes(id)) {
+      alert("You loose")
+    } else {
+      guessedColor.push(id)
+      this.setState({ 
+        score: this.state.score + 1,
+        guessedColor: guessedColor,
+      });
+    };
+  }
+
   shuffleCards = () => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    for (let i = colors.length - 1; i > 0; i--) {
+    // Uses Fisher-Yates shuffle to reorder array
+    for (let i = this.state.colors.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
       [colors[i], colors[j]] = [colors[j], colors[i]];
     }
-    console.log("card clicked")
     // Set this.state.friends equal to the new friends array
     this.setState({ colors });
   };
@@ -33,13 +50,13 @@ class App extends Component {
   render() {
     return (
       <div>
+        <p className="card-text">Score: {this.state.score}</p>
         <Navbar />
         <Header />
-
         <Wrapper>
           {this.state.colors.map(color => (
-            <FriendCard
-              shuffleCard={this.shuffleCards}
+            <ColorCard
+              checkGuess={this.checkGuess}
               id={color.id}
               key={color.id}
               name={color.name}
