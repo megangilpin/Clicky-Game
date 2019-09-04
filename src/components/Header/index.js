@@ -22,7 +22,8 @@ import "./Header.css";
 function Header() {
   return (
     <header className="header">
-      <h1>Welcome</h1>
+      <h1>Color Memory Game</h1>
+      <p className="text-center">Click on a color square to earn points, but don't click on any more than once!</p>
     </header>
   );
 }
