@@ -15,7 +15,7 @@ class App extends Component {
     colors,
     score: 0,
     topScore: 0,
-    guessedColor: [1,3],
+    guessedColor: [],
   };
 
   checksTopScore = () => {
@@ -33,6 +33,7 @@ class App extends Component {
         score: this.state.score + 1,
         guessedColor: guessedColor,
       });
+      this.shuffleCards()
     };
   }
 
