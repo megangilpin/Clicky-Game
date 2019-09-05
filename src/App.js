@@ -26,7 +26,18 @@ class App extends Component {
     console.log(this.state.guessedColor)
     const guessedColor = this.state.guessedColor
     if(guessedColor.includes(id)) {
-      alert("You loose")
+      alert("You've already clicked on that square, try again")
+      if(this.state.score > this.state.topScore){
+        this.setState({
+          topScore: this.state.score,
+          score: 0,
+          guessedColor:[]
+        })
+      } else {
+      this.setState({
+        score: 0,
+        guessedColor: []
+      })}
     } else {
       guessedColor.push(id)
       this.setState({ 
@@ -51,8 +62,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <p className="card-text">Score: {this.state.score}</p>
-        <Navbar />
+        
+        <Navbar
+          score={this.state.score}
+          topScore={this.state.topScore} />
         <Header />
         <Wrapper>
           {this.state.colors.map(color => (
