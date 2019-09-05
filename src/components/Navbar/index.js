@@ -1,10 +1,10 @@
 import React from "react";
 import "./Navbar.css";
 
-function Navbar(props) {
+function Navbar() {
   return (
     <nav className="navbar">
-      <p>Score: {this.state.score}</p>
+      {/* <p>Score: {this.state.score}</p> */}
     </nav>
   );
 }
