@@ -18,10 +18,6 @@ class App extends Component {
     guessedColor: [],
   };
 
-  checksTopScore = () => {
-   
-  }
-
   checkGuess = (id) => {
     console.log(this.state.guessedColor)
     const guessedColor = this.state.guessedColor
