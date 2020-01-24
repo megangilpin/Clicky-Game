@@ -1,6 +1,6 @@
 # Color Click Game :crystal_ball:
 
- https://secure-citadel-28458.herokuapp.com/
+ https://clicky-m-game.herokuapp.com/
 
   ![Color Click Game Demo](demo/colorClickGamemed.gif)
 
